@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Playfair+Display&display=swap');
+
+:root {
+    --primary-color: #90FFDC;
+    --secondary-color: #8AC4FF;
+    --accent1-color: #8DE4FF;
+    --accent2-color: #87CBAC;
+  
+    --heading-font: 'Playfair Display', serif;
+    --paragraph-font: 'Kanit', serif;
+  
+    --nav-background-color: #7A7978;
+    --nav-link-color: #XXXXXX;
+    --nav-hover-link-color: #XXXXXX;
+    --nav-hover-background-color: #XXXXXX;
+  }
+
+  body {
+    background-color: #7A7978;
+    max-width: 960px;
+    padding: 20px;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    background-color: #7A7978;
+    padding: 20px;
+    color: var(--accent1-color)
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+  }
+  
+  nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+  }
+  
+  nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+  
+  nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
