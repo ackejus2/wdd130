@@ -14,17 +14,26 @@ nav a {
   }
 h1 {
     color: steelblue;
+    text-align: center;
   }
-img {
+.aboutme {
+  background: #ffffff;
+  height: 200px;
+}
+.aboutme img {
+  position: relative;
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    top:-11%;
+    left: -1%;
   }
-p {
-    padding-left: 10;
-    padding-right: 10;
+.aboutme p {
+  padding-top: 45px;
+    padding-left: 15px;
+    padding-right: 200px;
     line-height: 2;
   }
 aside {
