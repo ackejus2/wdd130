@@ -11,9 +11,9 @@
     --paragraph-font: 'Kanit', serif;
   
     --nav-background-color: #a1a1a1;
-    --nav-link-color: #XXXXXX;
-    --nav-hover-link-color: #XXXXXX;
-    --nav-hover-background-color: #XXXXXX;
+    --nav-link-color: #8DE4FF;
+    --nav-hover-link-color: #050404;
+    --nav-hover-background-color: #a1a1a1;
 }
 header {
     background-color: #ffffff;
