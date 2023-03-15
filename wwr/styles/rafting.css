@@ -94,11 +94,8 @@ p {
     position: relative;
     top: 350px;
 }
-.mainsec4 {
-    bottom:5%
-}
-.mainsec5 {
-    bottom:.5%
+.mainsec p {
+    padding: 0%;
 }
 nav a:link, nav a:visited {
     color: var(--nav-link-color);
