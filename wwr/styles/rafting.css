@@ -20,6 +20,8 @@ header {
     padding: 15px;
     color: var(--accent1-color);
     left: 0%;
+    max-width: 840px;
+    margin: 0 auto;
 }
 nav {
     
@@ -108,4 +110,6 @@ footer {
     position: relative;
     top: 350px;
     left: 1.15%;
+    max-width: 840px;
+    margin: 0 auto;
 }
