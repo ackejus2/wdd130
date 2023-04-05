@@ -13,26 +13,31 @@
     <main>
         <form>
             <fieldset>
-                <Legend>Questions</Legend>
-                <div class="form-item">
-                    
-                </div>
-                <div class="form-item">
-                    <label for="shortanswer">What does the acronym HTML stand for?"></label>
-                    <input type="radio" id="q1" name="q1" value="a">
-                    <label for="q1">Hyper Text Markup Language</label>
-                    <input type="radio" id="1" name="q1" value="b">
-                    <label for="q1">Hyper Transfer Markup Language</label>
-                    <input type="radio" id="question1-c" name="q1" value="c">
-                    <label for="q1">Hyper Text Managing Language</label>
-                    <label for="2">What is the main difference between HTML and CSS?</label>
-                    <textarea id="q2" name="q2"></textarea>
-                    <label for="q3">The tag used to create a hyperlink in HTML is _____.</label>
-                    <input type="number" id="q3" name="q3">
-                    <label for="question4">What is the default value of a CSS z-index property?</label>
-                    <input type="number" id="q4" name="q4">
-                </div>
+            <Legend>Questions</Legend>
             </fieldset>
+                    
+            <fieldset>
+                <label for="question1">What does HTML stand for?</label>
+                <input type="radio" id="q1-a" name="question1" value="a"><label for="q1-a">Hyper Text Markup Language</label><br>
+                <input type="radio" id="q1-b" name="question1" value="b"><label for="q1-b">Hyper Transfer Markup Language</label><br>
+                <input type="radio" id="q1-c" name="question1" value="c"><label for="q1-c">Hyper Text Managing Language</label>
+            </fieldset>
+    
+            <fieldset>
+                <label for="question2">What is the default value of a CSS z-index property?</label>
+                <input type="number" id="question2" name="question2">
+            </fieldset>
+    
+            <fieldset>
+                <label for="question3">The tag used to create a hyperlink in HTML is _____.</label>
+                <input type="text" id="question3" name="question3">
+            </fieldset>
+    
+            <fieldset>
+                <label for="question4">What is the main difference between HTML and CSS?</label>
+                <textarea id="question4" name="question4"></textarea>
+            </fieldset>
+
             <div class="submit-button-container">
                 <button type="submit">Submit Quiz</button>
             </div>
