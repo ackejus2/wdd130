@@ -1,0 +1,60 @@
+header {
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+form {
+    width: 30%;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="radio"] {
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+input[type="number"], input[type="text"], textarea {
+    margin-bottom: 20px;
+}
+input[type="number"], input[type="text"], textarea {
+    width: 100%;
+    padding: 5px;
+}
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+legend {
+    text-align: center;
+    width: 20%;
+    padding: 10px 0;
+
+}
+/* Center the submit button */
+.submit-button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+}
