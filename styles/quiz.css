@@ -35,16 +35,6 @@ textarea {
     min-height: 100px;
 }
 
-.legend {
-    
-    position:relative;
-    text-align: center;
-    width: 20%;
-    padding: 10px 0;
-    left: 225px;
-
-}
-/* Center the submit button */
 .submit-button-container {
     text-align: center;
     margin-top: 20px;
