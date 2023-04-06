@@ -40,7 +40,51 @@
             <iframe 
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2878.997370424119!2d-111.7854436842732!3d43.81441395000852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540b03dc48a5cf%3A0x1e5534d3c38ef412!2sBrigham%20Young%20University-Idaho!5e0!3m2!1sen!2sus!4v1680758005347!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
             </iframe>
-        </div>
+            </div>
+            <div class="form">
+                <form>
+                    <fieldset>
+                        <legend>Contact Information</legend>
+                        <div class="form-item">
+                            <label for="fullname">Full Name:</label>
+                            <input type="text" id="fullname" name="fullanme">
+                        </div>
+                        <div class="form-item column2">
+                            <label for="useremail">Email:</label>
+                            <input type="email" id="useremail" name="useremail">
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <Legend>Message</Legend>
+                        <p>Please select the purpose of your message:</p>
+                        <div>
+                            <label>
+                            <input type="radio" name="purpose" value="General Inquiry" required> General Inquiry
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                            <input type="radio" name="purpose" value="Reservation Question"> Reservation Question
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                            <input type="radio" name="purpose" value="Website Suggestion"> Website Suggestion
+                            </label>
+                        </div>
+                        <div>
+                            <label for="message">Message:</label>
+                        </div>
+                        <div>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div> 
+                        <label>
+                        <input type="checkbox" name="newsletter" value="yes"> Please subscribe me to the monthly newsletter
+                        </label>
+                    </fieldset>
+                    <button type="submit">Submit Message</button>
+                </form>
+            </div>
             <h2>Our Guides and Instructors: </h2>
         </section>
         <div class="image-row">
