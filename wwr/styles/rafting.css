@@ -12,7 +12,7 @@
     --nav-hover-link-color: #050404;
     --nav-hover-background-color: #a1a1a1;
 }
-  
+
 header {
     background-color: #ffffff;
     padding: 15px;
@@ -58,7 +58,30 @@ h1, h2, h3, h4, h5, h6 {
 p {
     padding: 25px;
 }
-  
+
+.home-top img {
+    position: relative;
+    padding-top: 0%;
+    background-image: src="home-top.jpg";
+    background-repeat: repeat-y;
+    height: 70%;
+    width: 95%;
+    padding-left: 20px;
+    right: -5px;
+}
+
+.home-top h1 {
+    position: absolute;
+    width: 1024px;
+    color: var(--secondary-color);
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 0 auto;
+    left: 23.1%;
+    top: 28%;
+}
+
+
 .hero img {
     margin-left: 15px;
     display: block;
@@ -228,4 +251,97 @@ footer {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 25%;
+}
+
+.newsletter {
+    text-align: center;
+    padding: 20px;
+}
+
+.newsletter form {
+    display: inline-block;
+}
+
+.newsletter input,
+.newsletter button {
+    padding: 10px;
+    margin: 5px;
+}
+
+.call-to-action {
+    text-align: center;
+    padding: 20px;
+}
+
+.call-to-action a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--secondary-color);
+    background-color: var(--accent1-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid var
+}
+
+.grid-image {
+    width: 60%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin-left: 100px;
+}
+
+/* Add this new class at the end of your CSS file */
+.trip-description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.trip-description img{
+    width: 50%;
+}
+
+.trips-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+  
+.trip-item {
+    flex: 1;
+    max-width: 30%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.trip-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    padding-top: 25px;
 }
